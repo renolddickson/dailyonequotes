@@ -19,7 +19,7 @@ export default function Top({quotestext,author}) {
             <FaInstagram />
             </a>
             <span className="share-mobile">
-            <a href={"whatsapp://send?text="+quotestext+"%0a %09 -"+author} target='_blank' rel="noreferrer" data-action="share/whatsapp/share">
+            <a href={"whatsapp://send?text="+quotestext+"✨%0a %09 -"+author} target='_blank' rel="noreferrer" data-action="share/whatsapp/share">
             <IoIosShareAlt />
             </a>
             </span>
