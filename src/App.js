@@ -9,7 +9,7 @@ import { HeartSpinner } from 'react-spinners-kit'
 function App() {
 const [data,setData]=useState({})
 const fetchData = () => {
-  return fetch("https://script.google.com/macros/s/AKfycbygAmvcRItKsI3tivCApiP8LK8SnVyZ9tB_Ff5L00v4bmZ2e7DdHg-baEj2y1jkazU/exec?action=getQuotes")
+  return fetch("https://script.google.com/macros/s/AKfycbyk4DXzWqDfU3u9pr331iM8Z5i-FUZr4N8FqSf91KlwJLu0C90-Q39hkQCLemRdb1MyvA/exec?action=getQuotes")
         .then((response) => response.json())
         .then((data) => setData(data));
 }
