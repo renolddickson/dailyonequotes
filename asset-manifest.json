@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dailyonequotes/static/css/main.8b693314.css",
-    "main.js": "/dailyonequotes/static/js/main.f9331038.js",
+    "main.css": "/dailyonequotes/static/css/main.59100520.css",
+    "main.js": "/dailyonequotes/static/js/main.35d148a1.js",
     "index.html": "/dailyonequotes/index.html",
-    "main.8b693314.css.map": "/dailyonequotes/static/css/main.8b693314.css.map",
-    "main.f9331038.js.map": "/dailyonequotes/static/js/main.f9331038.js.map"
+    "main.59100520.css.map": "/dailyonequotes/static/css/main.59100520.css.map",
+    "main.35d148a1.js.map": "/dailyonequotes/static/js/main.35d148a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b693314.css",
-    "static/js/main.f9331038.js"
+    "static/css/main.59100520.css",
+    "static/js/main.35d148a1.js"
   ]
 }
