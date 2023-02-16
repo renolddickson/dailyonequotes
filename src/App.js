@@ -18,7 +18,7 @@ useEffect(() => {
 },[])
 var bgcolor=(!data.color)?"#fff":data.color
 var author=(!data.quotes)?"":"-" +data.author
-var quotes = (!data.quotes)?<center><HeartSpinner size={100} color="#F4A460"/></center>:data.quotes +'✨' 
+var quotes = (!data.quotes)?<center><HeartSpinner size={80} color="black"/></center>:data.quotes +'✨' 
 document.body.style.backgroundColor = bgcolor;
   return (
     <div className="App">

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 :root {
   --brown: #7A7978;
   --notebook: tomato;
@@ -16,15 +17,6 @@ a{
 .App{
   height: 100vh;
   overflow: hidden;
-}
-p {
-  margin-top: 5vh;
-  text-align: center;
-  color: var(--brown);
-  text-transform: capitalize;
-  font-family: 'Segoe UI';
-  font-weight: 400;
-  font-size: 2em;
 }
 
 .box {
@@ -198,10 +190,9 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -40px;
   height: 100%;
-  width: 100%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  width: 100%; 
 }
 .share-pc{
   cursor: pointer;
@@ -238,7 +229,10 @@ h2{
   width: 100px;
   align-items: center;
 }
+h2{
+  font-family: 'Dancing Script', cursive;
 
+}
 .share-mobile{
   display: none;
 }
